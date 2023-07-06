@@ -1,21 +1,21 @@
 # Test your FastAPI endpoints
 
-GET http://127.0.0.1:8000/
+GET http://127.0.0.1:8053/
 Accept: application/json
 
 ###
 
-GET http://127.0.0.1:8000/hello/User
+GET http://127.0.0.1:8053/hello/User
 Accept: application/json
 
 ###
 
-POST http://127.0.0.1:8000/inference
+POST http://127.0.0.1:8053/inference
 Accept: application/json
 Content-Type: application/json
 
 {
-  "item": "pizza"
+  "item": "cambio de fuente de letra en CSS"
 }
 
 ###
@@ -25,7 +25,7 @@ Accept: application/json
 Content-Type: application/json
 
 {
-  "item": "hamburgesa"
+  "item": "template html"
 }
 
 
